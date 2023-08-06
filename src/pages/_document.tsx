@@ -5,7 +5,10 @@ export default function Document() {
       <Head>
         <title>Nz</title>
         <link rel="shortcut icon" href="/i.svg" type="image/svg+xml" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no,viewport-fit=cover"
+        />
       </Head>
       <body className="text-zinc-700 dark:text-white dark:bg-gray-700">
         <Main />

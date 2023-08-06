@@ -8,18 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="z-10 relative grid max-w-6xl w-full mx-auto">
-        <Nav />
-        <div className="my-3">
-          <div className="m-6 md:m-2">
-            <Image
-              src="/8dbda686bfe37574fb1a51c92287caca.webp"
-              width="500"
-              height="500"
-              alt=""
-              className="w-full md:w-44"
-            />
-          </div>
+      <Nav />
+      <div className="nz_contents">
+        <div className="grid gap-4">
+          <h2 className="text-3xl">レポート</h2>
           <div className="overflow-x-auto max-w-full">
             <table className="border-collapse table-auto w-full text-sm">
               <thead>
@@ -112,8 +104,8 @@ export default function Home() {
             </table>
           </div>
         </div>
-        <Bar />
       </div>
+      <Bar />
     </>
   );
 }

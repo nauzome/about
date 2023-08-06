@@ -1,36 +1,23 @@
 import Link from "next/link";
 export default function Bar() {
   return (
-    <header class="my-2 bg-blue-100 dark:bg-gray-800">
-      <div className="p-4 grid gap-2">
-        <ul className="grid lg:flex items-center gap-3 text-blue-700 dark:text-blue-400">
+    <header class="grid gap-4 border-y-2 border-slate-100 dark:border-white border-solid">
+      <div className="py-2 nz_contents">
+        <ul className="grid items-center gap-1 text-blue-700 dark:text-blue-400">
           <li>
-            <a href="/assets.7z">
-              assets
-            </a>
+            <a href="/assets.7z">Assets</a>
           </li>
           <li>
-            <a
-              class="text-blue-700 dark:text-blue-400"
-              href="https://about.nauzome.com"
-            >
-              onion..
-            </a>
+            <Link href="license">license</Link>
           </li>
           <li>
-            <a href="/certification/meta.json">
-              連絡先
-            </a>
+            <Link href="language">language</Link>
           </li>
           <li>
-            <Link href="developer">
-            developer
-            </Link>
+            <Link href="developer">developer</Link>
           </li>
           <li>
-            <Link href="sdgs">
-              SDGS
-            </Link>
+            <Link href="donation">donation</Link>
           </li>
         </ul>
         <p>2021-2023</p>

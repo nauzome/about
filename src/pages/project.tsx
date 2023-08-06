@@ -8,24 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="z-10 relative grid max-w-6xl w-full mx-auto">
-        <Nav />
-        <div className="my-3">
-          <div className="relative w-full aspect-video my-4 bg-maxblue overflow-hidden">
-            <div className="absolute inset-0 w-full h-full">
-              <Image
-                src="/dfcde02c208d7e2944c7566ecd4b26fa.webp"
-                width="1500"
-                height="1500"
-                alt=""
-                className="w-full h-full object-cover object-center"
-              />
-            </div>
-            <div className="absolute inset-0 flex items-center w-full h-full">
-              <h2 className="px-4 text-5xl md:text-8xl text-white">Project</h2>
-            </div>
-          </div>
-          <div className="my-4">
+      <Nav />
+      <div className="nz_contents">
+        <div className="grid gap-4">
+          <h2 className="text-3xl">Project</h2>
+          <div>
             <h3 className="text-xl">aipictors</h3>
             <p>aipictorsのサイトの開発メンバーです。</p>
             <p>
@@ -44,7 +31,7 @@ export default function Home() {
               </a>
             </p>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">Torノードについて。</h3>
 
             <p>
@@ -61,7 +48,7 @@ export default function Home() {
               ram:1GBのサーバーで一般ノードを2022年1月2日ぐらいから運営しています。
             </p>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">検閲回避ミラーについて。</h3>
             <h4>メインアドレス</h4>
             <ul>
@@ -94,11 +81,11 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div className="my-4">
+          <div>
             <p>ブロックされた場合はサブアドレスをご利用ください。</p>
             <p>またバックドア、ウイルスはありません。</p>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">家出少女/少年プロジェクト(廃止)</h3>
             <p>
               今思えばランダムにリプライを送信するアカウントは自分の正義に燃えていた、これは批判されたとおりスパムだと思う、ただページをインスタンスの管理者がリンクすることは良い方法だと思う。
@@ -132,8 +119,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Bar />
       </div>
+      <Bar />
     </>
   );
 }

@@ -8,19 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="z-10 relative grid max-w-6xl w-full mx-auto">
-        <Nav />
-        <div className="my-3">
-          <div className="relative w-full aspect-video my-4 bg-maxblue overflow-hidden">
-            <div className="absolute inset-0 w-full h-full bg-white opacity-50 nz_design_mask"></div>
-            <div className="absolute inset-0 flex items-center w-full h-full">
-              <h2 className="px-4 text-5xl md:text-8xl text-white">
-                developer
-              </h2>
-            </div>
-          </div>
+      <Nav />
+      <div className="nz_contents">
+        <div className="grid gap-4">
+          <h2 className="text-3xl">開発しよう</h2>
           <p>なうぞめはデザインの人だと思っています。</p>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">ルール</h3>
             <ul className="list-disc list-inside">
               <li>border-radius はとても利用しない。</li>
@@ -32,14 +25,14 @@ export default function Home() {
               <li>平行ではない余白などは利用しない。</li>
             </ul>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">サイズ</h3>
             <p>webpakeでも何でも良いのでビルドして小さくしましょう。</p>
             <p>
               なお、ファイル数が多くなったら自動化するスクリプトを作成することもお忘れなく。
             </p>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">制限</h3>
             <p>
               画像をダウンロードされたくないからと言ってImgタグなどを触れなくする必要はありません。
@@ -50,7 +43,7 @@ export default function Home() {
               ユーザーに制限を加えるべきではありませんし規制しても簡単に回避できます。
             </p>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">レガシー対応</h3>
             <p>
               する必要はありませんが現在のWebに概ね対応しているブラウザには対応させる必要があります。
@@ -62,7 +55,7 @@ export default function Home() {
               ただ、サポートしないだけであって非推奨で閲覧は許可されるべきです。無理やり転送したりしないようにしましょう。
             </p>
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">携帯電話などの対応</h3>
             <p>
               携帯電話などにはこのように出来るだけ1アクションで接続できるようにしてください。
@@ -79,7 +72,7 @@ export default function Home() {
               className="w-full max-w-5xl my-3 mx-auto"
             />
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">ダークモードの実装</h3>
             <p>
               ダークモードに対応する際はできるだけ暗く見やすい事に重きをおく。800グレーなどを利用すること。
@@ -92,7 +85,7 @@ export default function Home() {
               className="w-full max-w-5xl my-3 mx-auto"
             />
           </div>
-          <div className="my-4">
+          <div>
             <h3 className="text-xl">色使い</h3>
             <div className="grid gap-4 my-4">
               <div>
@@ -227,8 +220,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Bar />
       </div>
+      <Bar />
     </>
   );
 }

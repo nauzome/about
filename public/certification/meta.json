@@ -4,7 +4,8 @@
         "nauzome.org",
         "nauzo.me",
         "cover.pm",
-        "privatech.at"
+        "privatech.at",
+        "mstdn.wiki"
     ],
     "email": [
         "nauzome@nauzome.com",
@@ -37,13 +38,6 @@
     "matrix": [
         "@nauzome:matrix.privatech.at"
     ],
-    "wire": [
-        "@nauzome"
-    ],
-    "xmpp": [
-        "vpnuser@xmpp.is",
-        "nauzome@xmpp.is"
-    ],
     "fedimovie.com": [
         "https://fedimovie.com/c/nauzome_channeru/"
     ],
@@ -53,21 +47,11 @@
     "twitcasting.tv": [
         "https://ja.twitcasting.tv/nauzome"
     ],
-    "misskey.io": [
-        "https://misskey.io/@vpnuser",
-        "https://misskey.io/@nauzome_host"
-    ],
-    "mlsskey.io": [
-        "https://mlsskey.io/@vpnuser"
-    ],
     "social.076.ne.jp": [
         "https://social.076.ne.jp/nauzome"
     ],
     "mk.shc.kanagawa.jp": [
         "https://mk.shc.kanagawa.jp/@nauzome"
-    ],
-    "msk.ilnk.info": [
-        "https://msk.ilnk.info/@nauzome"
     ],
     "misskey.pm": [
         "https://misskey.pm/@nauzome",
