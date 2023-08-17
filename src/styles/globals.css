@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-}
 .nz_mobile_bag {
   height: 100vh;
   height: 100svh;
   min-height: 100vh;
   min-height: 100svh;
+  scrollbar-width: thin;
+  scrollbar-color: #252d39 transparent;
+}
+@media (prefers-color-scheme: dark) {
+  .nz_mobile_bag{
+    scrollbar-color: #fff transparent;
+  }
 }
 .nz_contents {
   max-width: 1350px;

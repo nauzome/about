@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Bar() {
   return (
-    <header class="grid gap-4 my-5 py-5 px-3 rounded bg-gray-200">
+    <header class="grid gap-4 lg:column-start-2 lg:col-start-1 lg:col-end-13 py-5 px-3 bg-blue-100 dark:bg-gray-800">
       <div className="grid lg:grid-cols-2">
         <div>
           <h4 className="font-bold">Assets</h4>

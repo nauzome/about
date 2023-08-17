@@ -26,9 +26,13 @@ export default function App({ Component, pageProps }: AppProps) {
         <div className="nz_contents">
           <div className="grid lg:gap-4 lg:grid-cols-12">
             <Nav />
-            <Component {...pageProps} />
+            <div className="lg:col-start-3 lg:col-end-13 lg:column-start-1">
+              <div className="py-3 lg:py-10">
+                <Component {...pageProps} />
+              </div>
+            </div>
+            <Bar />
           </div>
-          <Bar />
         </div>
       </div>
     </>
