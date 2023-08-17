@@ -5,6 +5,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import LINESeedJP_OTF_Rg from "@next/font/local";
+import Nav from "../../components/nav";
+import Bar from "../../components/bar";
 
 const LINESeedJP_OTF_Rg_n = LINESeedJP_OTF_Rg({
   src: "./LINESeedJP_OTF_Rg.woff",
@@ -20,24 +22,13 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [router.asPath]);
   return (
     <>
-      <style jsx global>{`
-        html {
-          font-family: ${LINESeedJP_OTF_Rg_n.style.fontFamily};
-        }
-        .nz_mobile_bag {
-          height: 100vh;
-          height: 100svh;
-          min-height: 100vh;
-          min-height: 100svh;
-        }
-        .nz_contents {
-          width: calc(100% - 0.5rem - 0.5rem);
-          margin: 0 auto;
-        }
-      `}</style>
       <div className="overflow-y-auto nz_mobile_bag">
-        <div className="grid gap-y-5 auto-rows-max max-w-4xl mx-auto">
-          <Component {...pageProps} />
+        <div className="nz_contents">
+          <div className="grid lg:gap-4 lg:grid-cols-12">
+            <Nav />
+            <Component {...pageProps} />
+          </div>
+          <Bar />
         </div>
       </div>
     </>

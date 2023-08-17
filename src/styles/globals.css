@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+}
+.nz_mobile_bag {
+  height: 100vh;
+  height: 100svh;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+.nz_contents {
+  max-width: 1350px;
+  width: calc(100% - 0.5rem - 0.5rem);
+  margin: 0 auto;
+}
 .nz_about_bin::before{
   content: '“';
 }
