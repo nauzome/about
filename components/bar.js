@@ -1,11 +1,11 @@
 import Link from "next/link";
 export default function Bar() {
   return (
-    <header class="grid gap-4 lg:column-start-2 lg:col-start-1 lg:col-end-13 py-5 px-3 bg-blue-100 dark:bg-gray-800">
+    <header class="grid gap-4 lg:column-start-2 lg:col-start-1 lg:col-end-13 py-5 px-3 text-white bg-red-400 dark:bg-gray-800 rounded">
       <div className="grid lg:grid-cols-2">
         <div>
           <h4 className="font-bold">Assets</h4>
-          <ul className="grid items-center text-blue-700 dark:text-blue-400">
+          <ul className="grid items-center">
             <li>
               <a href="/assets.7z">Assets</a>
             </li>
@@ -16,7 +16,7 @@ export default function Bar() {
         </div>
         <div>
           <h4 className="font-bold">Site</h4>
-          <ul className="grid items-center text-blue-700 dark:text-blue-400">
+          <ul className="grid items-center">
             <li>
               <a href="language">language</a>
             </li>
@@ -30,7 +30,7 @@ export default function Bar() {
         </div>
         <div>
           <h4 className="font-bold">Nauzome</h4>
-          <ul className="grid items-center text-blue-700 dark:text-blue-400">
+          <ul className="grid items-center">
             <li>
               <a href="donation">donation</a>
             </li>
@@ -41,7 +41,7 @@ export default function Bar() {
         </div>
         <div>
           <h4 className="font-bold">Social</h4>
-          <ul className="grid items-center text-blue-700 dark:text-blue-400">
+          <ul className="grid items-center">
             <li>
               <a href="https://misskey.pm/@nz">misskey</a>
             </li>

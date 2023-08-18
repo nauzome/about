@@ -19,7 +19,7 @@ class ScrollButton extends React.Component {
   render() {
     return (
       <>
-        <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid w-full">
+        <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid rounded w-full">
           <div className="text-xl">
             <p>やあ、私のサイトです。</p>
             <p>私はなうぞめといいます。好きなものはチキンとパスタです。</p>

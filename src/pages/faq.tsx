@@ -6,13 +6,13 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid w-full">
+      <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid rounded w-full">
         <h2 className="text-3xl">よくあると思う質問</h2>
         <p>
           なんか質問が無いので自分で質問します。なんか動画投稿者がやっていました。
         </p>
-        <div className="py-3 px-4 bg-blue-100 dark:text-white dark:bg-gray-800 ">
-          <ul className="list-decimal list-inside text-blue-700">
+        <div className="py-3 px-4 bg-red-400 dark:bg-gray-800 rounded">
+          <ul className="list-decimal list-inside text-white">
             <li>
               <a href="#%E9%80%A3%E7%B5%A1%E5%85%88">連絡先</a>
             </li>

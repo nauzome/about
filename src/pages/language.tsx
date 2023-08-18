@@ -9,7 +9,7 @@ export default function Home() {
   const { t } = useTranslation("common");
   return (
     <>
-      <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid w-full">
+      <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid rounded w-full">
         <div>
           <p>
             なお、国旗は利用者が多い地域を示したものでありそれ以上ではありません。
@@ -19,9 +19,9 @@ export default function Home() {
             23:25頃の物であり変動している可能性があります。
           </p>
         </div>
-        <div>
+        <div className="text-white">
           <div className="grid gap-2 lg:gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-blue-100 dark:bg-gray-800 ">
+            <div className="gray-400 bg-red-400 dark:bg-gray-800 rounded">
               <div className="p-3 dark:border-slate-500">
                 <Link
                   href="about"
@@ -33,7 +33,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="bg-blue-100 dark:bg-gray-800 ">
+            <div className="gray-400 bg-red-400 dark:bg-gray-800 rounded">
               <div className="p-3 dark:border-slate-500">
                 <Link
                   href="about"
@@ -45,7 +45,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="bg-blue-100 dark:bg-gray-800 ">
+            <div className="gray-400 bg-red-400 dark:bg-gray-800 rounded">
               <div className="p-3 dark:border-slate-500">
                 <Link
                   href="about"
@@ -57,7 +57,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="bg-blue-100 dark:bg-gray-800 ">
+            <div className="gray-400 bg-red-400 dark:bg-gray-800 rounded">
               <div className="p-3 dark:border-slate-500">
                 <Link
                   href="about"
@@ -69,7 +69,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="bg-blue-100 dark:bg-gray-800 ">
+            <div className="gray-400 bg-red-400 dark:bg-gray-800 rounded">
               <div className="p-3 dark:border-slate-500">
                 <Link
                   href="about"

@@ -6,14 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid w-full">
+      <div className="grid gap-5 lg:py-5 lg:px-4 lg:border-2 border-slate-300 dark:border-slate-500 lg:border-solid rounded w-full">
         <h2 className="text-3xl">なうぞめの求人</h2>
         <p>以下の条件でなうぞめは求人を探しています。</p>
         <p>
           雇ってくれる人若しくは良さげな求人情報があればご連絡お願いします。
         </p>
-        <div className="py-3 px-4 bg-blue-100 dark:text-white dark:bg-gray-800 ">
-          <ul className="list-decimal list-inside text-blue-700">
+        <div className="py-3 px-4 bg-red-400 dark:text-white dark:bg-gray-800 rounded">
+          <ul className="list-decimal list-inside text-white">
             <li>仕事内容が以下に該当している</li>
             <ul className="mx-5 list-decimal list-inside">
               <li>データーの仕分け</li>
