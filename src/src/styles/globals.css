@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  width: 100svw;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden auto;
+  scrollbar-width: thin;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.border-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.border-y-1 {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.border-x-1 {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.border-t-1 {
+  border-top-width: 1px;
+}
+
+.border-b-1 {
+  border-bottom-width: 1px;
+}
+
+.border-l-1 {
+  border-left-width: 1px;
+}
+
+.border-r-1 {
+  border-right-width: 1px;
+}
+
+.nz_height_svh {
+  height: 100vh;
+  height: 100svh;
+}
+
+.nz_top {
+  clip-path: polygon(0 0, 100% 0, 100% 100%)
+}
+
+.nz_top_c {
+  position: relative;
+  top: -1.5rem;
+  right: -1.5rem;
+  transform: rotate(45deg);
+}
+
+.nz_top_text {
+  z-index: 15;
+  position: absolute;
+  top: 10rem;
+  right: 0;
+}

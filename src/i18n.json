@@ -1,0 +1,32 @@
+{
+    "locales": [
+        "ar",
+        "be",
+        "bn",
+        "el",
+        "en",
+        "eo",
+        "es",
+        "fa",
+        "fr",
+        "hi",
+        "it",
+        "ja",
+        "ja-ca",
+        "ja-fs",
+        "ja-ks",
+        "ko",
+        "pa",
+        "pl",
+        "pt",
+        "ru",
+        "zh-cn",
+        "zh-tw"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*": [
+            "common"
+        ]
+    }
+}
